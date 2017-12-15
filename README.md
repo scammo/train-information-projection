@@ -3,6 +3,9 @@ We want to project data on trains to help you find your seats and make trains an
 
 
 ## Log
+## 1910
+- Erste Modelle basierend auf: http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2016.pdf
+
 ### 1823
 - Könnten die Daten vom Zugbgleiter kommen? Also der Zugbgleiter scannt alle Menschen und weiß dadurch wie viel Bestzt ist? Projekt Name: Rispe
 - WLAN daten benutzen um besser Load Maganament machen
