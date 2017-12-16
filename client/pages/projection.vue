@@ -1,15 +1,40 @@
 <template>
 	<section>
-		<h2 id="wagonnumber">{{wagonnumber}}</h2>
-		<img id="wheelchair" src="~/assets/images/SVG/wheelchair.svg">
-		<img id="bicycle" src="~/assets/images/SVG/bicycle.svg">
+		<h2 id="wagonnumber">Wagen {{wagonnumber}}</h2>
+		<img v-if="wheelchairaccess" id="wheelchair" src="~/assets/images/SVG/wheelchair.svg">
+		<span v-if="left" class="arrow" id="left"><-<- <img src="~/assets/images/SVG/wheelchair.svg"></span>
+		<span v-if="right" class="arrow" id="right"><img src="~/assets/images/SVG/wheelchair.svg"> ->-></span>
 	</section>	
 </template>
 
 <style>
 img {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
+}
+.arrow {
+	font-size: 42pt;
+	font-weight: 600;
+
+	animation: shake 3s cubic-bezier() infinite;
+  left: 0;
+}
+@keyframes shake {
+  10%, 90% {
+		left: -2px;
+  }
+  
+  20%, 80% {
+		left: 2px;
+  }
+
+  30%, 50%, 70% {
+		left: -6px;
+  }
+
+  40%, 60% {
+		left: 6px;
+  }
 }
 </style>
 
@@ -18,23 +43,41 @@ img {
 import axios from 'axios';
 
 export default {
+	asyncData(context) {
+		return {
+			wagonposition: context.query.position
+		}
+	},
 	data() {
 		return {
-			wagonnumber: "Wagen " + Math.random()
+			train: {},
+			wagonnumber: 1337,
+			wheelchairaccess: true,
+			bicycleaccess: true,
+			left: true,
+			right: true
 		}
 	},
 	mounted() {
 		var configObject = {
 			autoSave: true,
 			autoLoad: true,
-			layers: ["wagonnumber", "wheelchair", "bicycle"]
+			layers: ["wagonnumber", "wheelchair", "left", "right"]
 		};
 
 		var maptastic = Maptastic(configObject);
 
-		setTimeout(() => {
-			console.log(maptastic.getLayout());
-		}, 10000)
+		axios.post('http://127.0.0.1:5984/wagenreihung/_find', {"selector": {"name": "Flensburg"}})
+			.then(res => {
+				this.train = res.data.docs[0].tracks[0].trains[0];
+				this.wagonnumber = this.train.waggons[this.wagonposition].number;
+				if (this.train.waggons[this.wagonposition].symbols.includes('e') == false) {
+					this.wheelchairaccess = false;
+				} else {
+					this.left = false;
+					this.right = false;
+				}
+			})
 
 	}
 }
