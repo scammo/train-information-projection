@@ -1,25 +1,44 @@
-/*
-Numeric Javascript
-Copyright (C) 2011 by Sébastien Loisel
+<template>
+	<section>
+		<h2 id="wagonnumber">{{wagonnumber}}</h2>
+		<img id="wheelchair" src="~/assets/images/SVG/wheelchair.svg">
+		<img id="bicycle" src="~/assets/images/SVG/bicycle.svg">
+	</section>	
+</template>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+<style>
+img {
+	width: 100px;
+	height: 100px;
+}
+</style>
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+<script>
+// import Maptastic from '@/assets/maptasticjs/build/maptastic.js';
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-*/
+export default {
+	data() {
+		return {
+			wagonnumber: "Wagen " + Math.random()
+		}
+	},
+	mounted() {
+		var configObject = {
+			autoSave: true,
+			autoLoad: true,
+			layers: ["wagonnumber", "wheelchair", "bicycle"]
+		};
+
+		var maptastic = Maptastic(configObject);
+
+		setTimeout(() => {
+			console.log(maptastic.getLayout());
+		}, 10000)
+
+	}
+}
+
+// maptastic.js
 function r(t, n, o, e) {
   if (o === n.length - 1) return e(t);
   var f, u = n[o],
@@ -750,8 +769,8 @@ var Maptastic = function(config) {
   };
 
   var resize = function() {
-    viewWidth = window.innerWidth;
-    viewHeight = window.innerHeight;
+    var viewWidth = window.innerWidth;
+    var viewHeight = window.innerHeight;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
@@ -832,3 +851,5 @@ var Maptastic = function(config) {
     }
   }
 };
+
+</script>
