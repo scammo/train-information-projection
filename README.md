@@ -6,7 +6,23 @@ The project is at the moment in the phase of a mvp.
 
 ## FAQ
 **What is an LED Projector**
-A Projector (or beamer) 
+A Projector LED (or german Beamer) is kinda like a normal project but with a few differences: it uses way less energy, it does not need to preheat - the image is instant and the life time is much longer. We think that a beamer on a busy platform will last 3-5 years before it needs to be replaced.
+
+**Can you even see the projection?**
+Yes! LED Beamers can be really brigt. You might not see it 100% outside if the sun is really bright in the summer but all the other times. And the white colors of the ICEs and ICs are great projection area. 
+
+**Will the passengers inside the train get blinded?**
+With a method called Project Mapping you can only project things on white surfaces and cut out the window. 
+
+**How many projectors would you need per platform?**
+We don't really know. Out first thought is that every steps (treppe) and lift (Fahrstuhl) should get a projector and every area around the doors. It would also be cool to project on the whole area but in the end it will also be cost factor. 
+
+**Have you tested it on real trains?**
+Nope! We were not allowed to, but the used the "Der kleine ICE" trains for visualising it for presentation. 
+
+**Why not project directly on the platform**
+Cool idea, we also thought about it. It could be an addon but if the platform is crowded (keep in mind that an ICE has more than 800 seats) you will have a hard time to see anything that is projected on the floor.
+
 
 ## Tech Stack and used API
 ### Open Data APIs
