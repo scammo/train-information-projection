@@ -9,11 +9,11 @@ We don't have fully working prototype but we already made some visualisation wit
 - Wagenreihungs Information http://data.deutschebahn.com/dhttps://twitter.com/roikiermedia/status/941990412893507585ataset/data-wagenreihungsplan-soll-daten 
 
 ### Tech Stack
-- Frontend ?????
+- Frontend: Vue.js & Nuxt.js
 - Backend: Laravel (PHP) and Couchdb to make the Wagenreihungs Data easily available 
 
 ## Contributors
-@scammo - Idee, Konzept, API/Backend-Ish
+@scammo - Idee, Konzept, API/Backend-Ish  
 @roikiermedia - Idee, Konzept, Frontend-ish, Projektion
 
 ## #DBHackathon Open Data
