@@ -15,6 +15,7 @@ img {
 
 <script>
 // import Maptastic from '@/assets/maptasticjs/build/maptastic.js';
+import axios from 'axios';
 
 export default {
 	data() {
