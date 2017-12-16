@@ -4,6 +4,10 @@ We want to use LED Projectors and project information from the Platform on the t
 Imagine a world where you step down onto the platform. You don't need to look for some small screens but have huge and easy to read projection on the train. You immediately know which waggon you have in front of you and can easily orientate. 
 We don't have fully working prototype but we already made some visualisation with the data we gathered manually and
 
+## FAQ
+**What is an LED Projector**
+A Projector (or beamer) 
+
 ## Tech Stack and used API
 ### Open Data APIs
 - Wagenreihungs Information http://data.deutschebahn.com/dhttps://twitter.com/roikiermedia/status/941990412893507585ataset/data-wagenreihungsplan-soll-daten 
