@@ -2,7 +2,7 @@
 We want to use LED Projectors and project information from the Platform on the train. For example: What kind of seats (for disabled people, bicycles, DB.Comfort) are in the wagon. 
 
 Imagine a world where you step down onto the platform. You don't need to look for some small screens but have huge and easy to read projection on the train. You immediately know which waggon you have in front of you and can easily orientate. 
-We don't have fully working prototype but we already made some visualisation with the data we gathered manually and
+The project is at the moment in the phase of a mvp.
 
 ## Tech Stack and used API
 ### Open Data APIs
