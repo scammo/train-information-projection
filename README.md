@@ -24,6 +24,9 @@ More Information: https://dbmindbox.com/en/db-opendata-hackathons/event/e/dbhack
 
 ### Samstag
 
+#### 14:00
+- @roikiermedia hat das Mittagessen verschlafen
+
 #### 12:00
 - Wir haben ein Präsentations Mockup erstellt https://twitter.com/roikiermedia/status/941990412893507585
 
