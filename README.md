@@ -1,6 +1,6 @@
 # TIP = **T**rain-**I**nformation-**P**rojection
 
-![](https://media.giphy.com/media/xUOxf3Er7gJoL3CFvW/giphy.gif)
+![](/client/static/giphy.gif)
 
 We want to use LED Projectors and project information from the Platform onto the train. For example: What kind of seats (for disabled people, bicycles, DB.Comfort) are in the wagon. 
 
