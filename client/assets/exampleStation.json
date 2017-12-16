@@ -1,0 +1,2335 @@
+{
+	"shortcode": "AF",
+	"name": "Flensburg",
+	"validity": {
+		"from": "2017-12-10",
+		"to": "2018-12-08"
+	},
+	"tracks": [
+		{
+			"name": "Gleis 1",
+			"number": "1",
+			"trains": [
+				{
+					"trainNumbers": {
+						"trainNumber": "1981"
+					},
+					"anno": [],
+					"time": "11:30:00",
+					"additionalText": "Fr\nbis 16.Mär\nab 04.Mai",
+					"name": "Flensburger Förde",
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "München",
+								"destinationVia": [
+									"Schleswig",
+									"Rendsburg",
+									"Neumünster",
+									[],
+									[]
+								]
+							},
+							"sections": [
+								"A",
+								"B",
+								"C",
+								"D",
+								"E"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": [],
+							"type": "s",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": "12",
+							"type": "1",
+							"symbols": "n",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "11",
+							"type": "4",
+							"symbols": "epn",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "10",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "9",
+							"type": "2",
+							"symbols": "e",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "8",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": "7",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": "6",
+							"type": "2",
+							"symbols": "h",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "8",
+							"isWaggon": "0",
+							"sections": [
+								"E",
+								"F"
+							],
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": [
+						"383",
+						"1183"
+					],
+					"anno": [],
+					"time": "12:09:00",
+					"additionalText": "bis 22.Mär",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg",
+								"destinationVia": {
+									"item": "Rendsburg"
+								}
+							},
+							"sections": [
+								"B",
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "ea",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": [
+						"IC",
+						"IC"
+					]
+				},
+				{
+					"trainNumbers": [
+						"383",
+						"1183"
+					],
+					"anno": [],
+					"time": "12:09:00",
+					"additionalText": "ab 02.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg",
+								"destinationVia": {
+									"item": "Rendsburg"
+								}
+							},
+							"sections": [
+								"B",
+								"C",
+								"D",
+								"E"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": "61",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": [
+								"B",
+								"C"
+							],
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "62",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": [
+								"C",
+								"D"
+							],
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "51",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "8",
+							"isWaggon": "1",
+							"sections": [
+								"D",
+								"E"
+							],
+							"number": "52",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "9",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": [
+						"IC",
+						"IC"
+					]
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "386"
+					},
+					"anno": [],
+					"time": "12:50:00",
+					"additionalText": "bis 22.Mär\nab 02.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aarhus",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									[],
+									"Hadsten st",
+									"Langaa st"
+								]
+							},
+							"sections": [
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": [
+						"385",
+						"1185"
+					],
+					"anno": [],
+					"time": "16:09:00",
+					"additionalText": "bis 22.Mär\nab 02.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg",
+								"destinationVia": [
+									"Rendsburg",
+									"Hamburg Dammtor"
+								]
+							},
+							"sections": [
+								"B",
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": [
+						"IC",
+						"IC"
+					]
+				},
+				{
+					"trainNumbers": [
+						"395",
+						"1165"
+					],
+					"anno": [],
+					"time": "16:09:00",
+					"additionalText": "23.Mär bis 01.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg",
+								"destinationVia": [
+									"Rendsburg",
+									[],
+									[]
+								]
+							},
+							"sections": [
+								"B",
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": [
+						"IC",
+						"IC"
+					]
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "1184"
+					},
+					"anno": [],
+					"time": "16:50:00",
+					"additionalText": "23.Mär bis 01.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aarhus",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									[]
+								]
+							},
+							"sections": [
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "ea",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "384"
+					},
+					"anno": [],
+					"time": "16:50:00",
+					"additionalText": "bis 22.Mär\nab 11.Jun",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aalborg st",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									"Aarhus",
+									"Hadsten st",
+									"Langaa st"
+								]
+							},
+							"sections": [
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "ea",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "394"
+					},
+					"anno": [],
+					"time": "16:50:00",
+					"additionalText": "02.Mai bis 10.Jun",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Odense st",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st"
+								]
+							},
+							"sections": [
+								"A",
+								"B",
+								"C",
+								"D",
+								"E",
+								"F"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "A"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": [
+								"A",
+								"B"
+							],
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": [
+								"B",
+								"C"
+							],
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "61",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "8",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "62",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "9",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "10",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "11",
+							"isWaggon": "1",
+							"sections": [
+								"D",
+								"E"
+							],
+							"number": "51",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "12",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "13",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": "52",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "14",
+							"isWaggon": "0",
+							"sections": [
+								"E",
+								"F"
+							],
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "469"
+					},
+					"anno": [],
+					"time": "20:03:00",
+					"additionalText": "Fr\nbis 16.Mär\nab 04.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Basel Bad",
+								"destinationVia": [
+									"Schleswig",
+									"Rendsburg",
+									"Hamburg",
+									[],
+									[]
+								]
+							},
+							"sections": [
+								"A",
+								"B",
+								"C",
+								"D",
+								"E"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": [],
+							"type": "s",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "B"
+							},
+							"number": "12",
+							"type": "1",
+							"symbols": "n",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "11",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "10",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "9",
+							"type": "2",
+							"symbols": "n",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "8",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": "7",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": "6",
+							"type": "2",
+							"symbols": "eh",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "8",
+							"isWaggon": "0",
+							"sections": [
+								"E",
+								"F"
+							],
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": [
+						"387",
+						"1187"
+					],
+					"anno": [],
+					"time": "20:09:00",
+					"additionalText": "29.Jun bis 26.Aug",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg",
+								"destinationVia": {
+									"item": "Rendsburg"
+								}
+							},
+							"sections": [
+								"B",
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "ea",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": [
+						"IC",
+						"IC"
+					]
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "382"
+					},
+					"anno": [],
+					"time": "20:50:00",
+					"additionalText": "29.Jun bis 26.Aug",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aarhus",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									[],
+									"Hadsten st",
+									"Langaa st"
+								]
+							},
+							"sections": [
+								"C",
+								"D"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "ea",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				}
+			],
+			"sections": [
+				"A",
+				"B",
+				"C",
+				"D",
+				"E",
+				"F"
+			]
+		},
+		{
+			"name": "Gleis 2",
+			"number": "2",
+			"trains": {
+				"train": {
+					"trainNumbers": {
+						"trainNumber": "7"
+					},
+					"anno": [],
+					"time": "99:99:00",
+					"additionalText": [],
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg Hbf",
+								"destinationVia": [
+									"Tarp",
+									"Jübek",
+									"Schleswig",
+									"Owschlag",
+									"Rendsburg"
+								]
+							},
+							"sections": [
+								"E",
+								"D",
+								"C",
+								"B"
+							]
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": "E"
+							},
+							"number": [],
+							"type": "Ü",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": [
+								"E",
+								"D"
+							],
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "21",
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "D"
+							},
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "22",
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": [
+								"D",
+								"C"
+							],
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "23",
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": "C"
+							},
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "24",
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": [
+								"C",
+								"B"
+							],
+							"number": [],
+							"type": "Ä",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "RE"
+					}
+				}
+			},
+			"sections": [
+				"F",
+				"E",
+				"D",
+				"C",
+				"B",
+				"A"
+			]
+		},
+		{
+			"name": "Gleis 4",
+			"number": "4",
+			"trains": {
+				"train": {
+					"trainNumbers": {
+						"trainNumber": "7"
+					},
+					"anno": [],
+					"time": "99:99:00",
+					"additionalText": [],
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg Hbf",
+								"destinationVia": [
+									"Tarp",
+									"Jübek",
+									"Schleswig",
+									"Owschlag",
+									"Rendsburg",
+									[],
+									[],
+									[]
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "Ü",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "24",
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "23",
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "22",
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "21",
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "Ä",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "RE"
+					}
+				}
+			},
+			"sections": []
+		},
+		{
+			"name": "Gleis 5",
+			"number": "5",
+			"trains": [
+				{
+					"trainNumbers": {
+						"trainNumber": "1188"
+					},
+					"anno": [],
+					"time": "10:50:00",
+					"additionalText": "24.Mär",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aarhus",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									[]
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "71",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "72",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "8",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "9",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "1188"
+					},
+					"anno": [],
+					"time": "10:50:00",
+					"additionalText": "23.Mär bis 01.Mai\nnicht 24.Mär",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Aarhus",
+								"destinationVia": [
+									"Padborg st",
+									"Tinglev st",
+									"Roedekro st",
+									"Vojens st",
+									"Vamdrup st",
+									"Lunderskov st",
+									"Kolding st",
+									"Fredericia st",
+									"Vejle st",
+									"Horsens st",
+									"Skanderborg st",
+									[]
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "81",
+							"type": "3",
+							"symbols": "nk",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "2",
+							"symbols": "k",
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "82",
+							"type": "2",
+							"symbols": "eha",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "4",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "2407"
+					},
+					"anno": [],
+					"time": "12:51:00",
+					"additionalText": "Fr bis 16.Mär , nicht 29.Dez\nFr , ab 04.Mai , auch 09.Mai\nnicht 11.Mai, 01.Jun",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Köln",
+								"destinationVia": [
+									"Schleswig",
+									"Rendsburg",
+									"Neumünster"
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "s",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "12",
+							"type": "1",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "11",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "10",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "9",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "8",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "7",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "6",
+							"type": "2",
+							"symbols": "eh",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "8",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "v",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "2407"
+					},
+					"anno": [],
+					"time": "12:51:00",
+					"additionalText": "So bis 18.Mär , auch 26.Dez, 01.Jan\nnicht 24., 31.Dez\nSo , ab 06.Mai , auch 21.Mai, 01.Jun\nnicht 20.Mai",
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Köln",
+								"destinationVia": [
+									"Schleswig",
+									"Rendsburg",
+									"Neumünster"
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "t",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "6",
+							"type": "2",
+							"symbols": "eh",
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "7",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "8",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "9",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "10",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "6",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "11",
+							"type": "2",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "7",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": "12",
+							"type": "1",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						},
+						{
+							"position": "8",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "s",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "2"
+						}
+					],
+					"traintypes": {
+						"traintype": "IC"
+					}
+				},
+				{
+					"trainNumbers": [],
+					"anno": [],
+					"time": "99:99:00",
+					"additionalText": [],
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": [],
+								"destinationVia": []
+							},
+							"sections": []
+						}
+					},
+					"waggons": [],
+					"traintypes": []
+				},
+				{
+					"trainNumbers": {
+						"trainNumber": "7"
+					},
+					"anno": [],
+					"time": "99:99:00",
+					"additionalText": [],
+					"name": [],
+					"subtrains": {
+						"subtrain": {
+							"destination": {
+								"destinationName": "Hamburg Hbf",
+								"destinationVia": [
+									"Tarp",
+									"Jübek",
+									"Schleswig",
+									"Owschlag",
+									"Rendsburg"
+								]
+							},
+							"sections": []
+						}
+					},
+					"waggons": [
+						{
+							"position": "0",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "Ü",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						},
+						{
+							"position": "1",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "21",
+							"length": "2"
+						},
+						{
+							"position": "2",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "22",
+							"length": "2"
+						},
+						{
+							"position": "3",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "h",
+							"symbols": [],
+							"differentDestination": "23",
+							"length": "2"
+						},
+						{
+							"position": "4",
+							"isWaggon": "1",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "i",
+							"symbols": [],
+							"differentDestination": "24",
+							"length": "2"
+						},
+						{
+							"position": "5",
+							"isWaggon": "0",
+							"sections": {
+								"identifier": []
+							},
+							"number": [],
+							"type": "Ä",
+							"symbols": [],
+							"differentDestination": [],
+							"length": "1"
+						}
+					],
+					"traintypes": {
+						"traintype": "RE"
+					}
+				}
+			],
+			"sections": []
+		}
+	]
+}
