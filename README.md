@@ -9,10 +9,10 @@ The project is at the moment in the phase of a mvp.
 
 ## FAQ
 **What is an LED Projector**
-A Projector LED (or german Beamer) is kinda like a normal project but with a few differences: it uses way less energy, it does not need to preheat - the image is instant and the life time is much longer. We think that a beamer on a busy platform will last 3-5 years before it needs to be replaced.
+A Projector LED (or in german mostly calles "Beamer") is kinda like a normal projector but with a few differences: it uses way less energy, it does not need to preheat - the image is instant and the lifetime is much longer. We think that a projector on a busy platform will last 3-5 years before it needs to be replaced.
 
 **Can you even see the projection?**
-Yes! LED Beamers can be really brigt. You might not see it 100% outside if the sun is really bright in the summer but all the other times. And the white colors of the ICEs and ICs are great projection area. 
+Yes! LED Projectors can be really brigt. You might not see it 100% outside if the sun is really bright in the summer but all the other times. And the white colors of the ICEs and ICs are great projection area. 
 
 **Will the passengers inside the train get blinded?**
 With a method called Project Mapping you can only project things on white surfaces and cut out the window. 
@@ -23,13 +23,13 @@ We don't really know. Out first thought is that every steps (treppe) and lift (F
 **Have you tested it on real trains?**
 Nope! We were not allowed to, but the used the "Der kleine ICE" trains for visualising it for presentation. 
 
-**Why not project directly on the platform**
+**Why not project directly on the platform?**
 Cool idea, we also thought about it. It could be an addon but if the platform is crowded (keep in mind that an ICE has more than 800 seats) you will have a hard time to see anything that is projected on the floor.
 
 
 ## Tech Stack and used API
 ### Open Data APIs
-- Wagenreihungs Information http://data.deutschebahn.com/dhttps://twitter.com/roikiermedia/status/941990412893507585ataset/data-wagenreihungsplan-soll-daten 
+- Wagenreihungs Information http://data.deutschebahn.com/dataset/data-wagenreihungsplan-soll-daten 
 
 ### Tech Stack
 - Frontend: Vue.js & Nuxt.js
@@ -62,11 +62,11 @@ More Information: https://dbmindbox.com/en/db-opendata-hackathons/event/e/dbhack
 
 ### Freitag
 #### 2300
-- Wir können folgenden Datensatz benutzen http://data.deutschebahn.com/dhttps://twitter.com/roikiermedia/status/941990412893507585ataset/data-wagenreihungsplan-soll-daten
+- Wir können folgenden Datensatz benutzen http://data.deutschebahn.com/dataset/data-wagenreihungsplan-soll-daten
 #### 1910
 - Erste Modelle basierend auf: http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2016.pdf and https://twitter.com/roikiermedia/status/941990412893507585
 #### 1823
-https://twitter.com/roikiermedia/status/941990412893507585- Könnten die Daten vom Zugbgleiter kommen? Also der Zugbgleiter scannt alle Menschen und weiß dadurch wie viel Bestzt ist? Projekt Name: Rispe
+- Könnten die Daten vom Zugbgleiter kommen? Also der Zugbgleiter scannt alle Menschen und weiß dadurch wie viel Bestzt ist? Projekt Name: Rispe
 - WLAN daten benutzen um besser Load Maganament machen
 - Zugreihungs Daten API
 - Möglichkeiten Aussichten: Menschen von 2. Klasse auf die 1. Klasse upgraden wenn 2. Klasse voll ist und 1. Klasse noch sehr lehr ist 
